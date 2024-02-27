@@ -7,6 +7,7 @@ import GameScene from './scenes/GameScene';
 export const gameConfig = {
     width: 640,
     height: 360,
+    playerSpeed: 3,
 };
 
 export const config: Phaser.Types.Core.GameConfig = {
@@ -15,7 +16,6 @@ export const config: Phaser.Types.Core.GameConfig = {
     height: gameConfig.height,
     pixelArt: true,
     transparent: true,
-
 
     scene: [LoadingSplash, PreloaderScene, GameScene]
 };
