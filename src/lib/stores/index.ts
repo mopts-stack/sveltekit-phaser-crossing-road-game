@@ -1,1 +1,1 @@
-export { logoCount } from './game';
+export { stat } from './game';

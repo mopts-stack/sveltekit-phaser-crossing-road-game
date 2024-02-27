@@ -10,8 +10,9 @@ export const gameConfig = {
     playerSpeed: 3,
     enemyMinY: 80,
     enemyMaxY: 280,
-    enemyMinSpeed: 2,
-    enemyMaxSpeed: 5,
+    enemyMinSpeed: 0.5,
+    enemyMaxSpeed: 0.5,
+    shakeTime: 500,
 };
 
 export const config: Phaser.Types.Core.GameConfig = {
