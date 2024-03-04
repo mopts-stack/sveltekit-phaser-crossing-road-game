@@ -29,6 +29,7 @@
 		position: relative;
 		width: 100%;
 		height: 100%;
+		user-select: none; /* Disable text selection */
 	}
 
 	.container .hud {
